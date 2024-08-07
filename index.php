@@ -1,4 +1,11 @@
-<?php  ?>
+<?php 
+$kelompok = "Kelompok 6";
+$anggota1 = "Abdurrahman" ;
+$anggota2 = "Malini" ;
+$anggota3 = "Heni" ;
+$anggota4 = "Marsela" ;
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,10 +18,10 @@
     <h1>kelompok 6</h1>
     <p>Anggota Kelompok</p>
     <ol>
-        <li> Abdurrahmamn</li>
-        <li> Malini</li>
-        <li> Heni Suenni</li>
-        <li> Marsela</li>
+        <li><?=  $anggota1 ?></li>
+        <li> <?=  $anggota2 ?></li>
+        <li> <?=  $anggota3 ?></li>
+        <li> <?=  $anggota4 ?></li>
     </ol>
 </body>
 </html>
